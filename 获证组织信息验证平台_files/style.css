@@ -1,0 +1,383 @@
+body {
+  background-image: url('bg.png');
+  background-repeat: repeat;
+  background-size: 300px auto;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #fff;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/**-- 背景 --**/
+.bg_f {
+	position: relative;
+	background-color: #ffffff;
+}
+.bg_e7 {
+	position: relative;
+	background-color: #e7e7e7;
+}
+.bg_f8 {
+	position: relative;
+	background-color: #f8f8f8;
+}
+.bg {
+	position: relative;
+	min-height: 100vh;
+	background: #ffffff url("../images/bg.png") top center no-repeat;
+	background-size: cover;
+}
+
+
+/**-- 框 --**/
+html {}
+/*body { min-height: 100vh;}*/
+.box {
+	display: block;
+	width: 100%;
+	margin: auto;
+	padding-top: 1.28rem;
+	padding-bottom: 1.28rem;
+	color: #232323;
+	font-size: 0.36rem;
+}
+.content {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0.7rem;
+	padding-right: 0.7rem;
+}
+
+
+/**-- 字符间距 --**/
+.zt4_3 {
+	letter-spacing: 0.5em;
+	margin-right: -0.5em;
+}
+
+
+/**-- 标题栏 --**/
+.title {
+	width: 100%;
+	color: #ffffff;
+	font-size: 0.46rem;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	background-color: #194d96;
+/*	background-image: -webkit-gradient(linear, left top, right top, from( #ab893b ), to( #cbae6c ));
+	background-image: -webkit-linear-gradient(left,#ab893b,#cbae6c);
+	background-image: -moz-linear-gradient(left,#ab893b,#cbae6c);
+	background-image: -ms-linear-gradient(left,#ab893b,#cbae6c);
+	background-image: -o-linear-gradient(left,#ab893b,#cbae6c);
+	background-image: linear-gradient(90deg,#ab893b,#cbae6c);*/
+}
+.top {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1.28rem;
+	line-height: 1.28rem;
+	font-size: 0.46rem;
+}
+
+.top_text {
+	display: inline-block;
+	width: auto;
+	height: 100%;
+}
+.top_text img {
+	width: auto;
+	height: 0.64rem;
+	margin-top: 0.32rem;
+	margin-left: 0.3rem;
+}
+.top_text span {
+	display: inline-block;
+	font-size: 0.45rem;
+}
+
+/**-- logo --**/
+.logo {
+	display: block;
+	padding: 1px 0;
+	color: #888888;
+	font-size: 0.36rem;
+	text-align: center;
+	letter-spacing: 0.08em;
+}
+.logo img {
+	display: block;
+	width: 38%;
+	margin: 1.4rem auto 0.6rem;
+}
+.logo_a {
+	line-height: 0.8rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+	color: #1b191a;
+	font-size: 0.46rem;
+}
+.logo h1 {
+	margin-bottom: 0.1rem;
+	color: #194d96;
+	font-size: 0.46rem;
+	font-weight: bold;
+}
+
+.link_cae {
+	margin-top: 0.4rem;
+	padding: 0.28rem 0;
+	text-align: left;
+	border-top: 1px dashed #397ccb;
+}
+.a_link {
+	display: block;
+	padding: 0.08rem 0;
+	color: #666666;
+	font-size: 0.36rem;
+}
+a.a_link {
+	text-decoration: underline;
+}
+
+
+
+/**-- 防伪框 --**/
+.fw_case {
+	margin-top: 0.6rem;
+	padding: 0 0.3rem;
+	color: #333333;
+	font-size: 0.375rem;
+	border-radius: 0.1rem;
+	background-color: #ffffff;
+}
+.fw_top {
+	padding: 0.36rem 0;
+	color: #555555;
+	font-size: 0.42rem;
+	text-align: center;
+	border-bottom: 0.03rem solid #eeeeee;
+}
+
+.fw_table {
+	width: 100%;
+	padding: 0.45rem 0 0.45rem 0.1rem;
+	color: #454545;
+	font-size: 0.375rem;
+}
+.fw_table.var_top tr td {
+	padding: 0.18rem 0;
+	vertical-align: top;
+}
+.fw_table.var_top tr td.word_no + td {
+	width: 100%;
+}
+.fw_tab_tex {
+	color: #6da2d4;
+}
+#lblNumber {
+}
+#divResult {
+}
+
+
+
+/**-- 二维码 --**/
+.ewm {
+	display: block;
+	width: 100%;
+	line-height: 0.62rem;
+	padding-bottom: 0.5rem;
+	color: #333333;
+	font-size: 0.38rem;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+.ewm img {
+	display: block;
+	width: 4rem;
+	margin: auto auto 0.2rem;
+}
+.ewm .ewm_img {
+	display: block;
+	width: 4.2rem;
+	margin: auto auto 0.1rem;
+}
+.ewm .ewm_slogan {
+	display: block;
+	width: 100%;
+	margin: 0.32rem auto;
+}
+
+
+/**-- 查询结果 --**/
+/*#result { display: none;}*/
+.fw_rim_case {
+	text-align: center;
+}
+.fw_rim {
+	line-height: 0.68rem;
+	margin-top: 0.6rem;
+	margin-bottom: 0.8rem;
+	padding: 0.42rem 0.3rem 0.4rem 0.42rem;
+	color: #333333;
+	font-size: 0.39rem;
+	border: 1px solid #eeeeee;
+	border-top: 0.4rem solid #194d96;
+	border-radius: 0.24rem;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.fw_rim_tit {
+	margin: 0.1rem auto 0.1rem;
+	font-size: 0.46rem;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.fw_rim li {
+	padding: 0.12rem 0;
+}
+.fw_rim li span {
+	display: initial;
+	line-height: 2.1;
+	color: #888888;
+	font-size: 0.42rem;
+}
+#divResult {
+	display: block;
+	margin-top: 0.024rem;
+	font-size: 0.36rem;
+	text-align: left;
+}
+#lblNumber, #divResult {
+}
+
+.title.end {
+	padding: 0.36rem 0.2rem;
+	color: #ffffff;
+	font-size: 0.42rem;
+}
+.end {
+	position: relative;
+	width: 100%;
+	line-height: 0.56rem;
+	padding: 0.3rem 0.2rem;
+	color: #bbbbbb;
+	font-size: 0.36rem;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+.end.on {
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+	-webkit-transform: translate(-50%,0);
+	-moz-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+	-o-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}
+.end_tex {
+	display: inline-block;
+	text-align: left;
+}
+.end_tex p {
+	padding: 0.1rem 0;
+}
+
+
+.title.end.oen {
+	height: 0.26rem;
+	padding: 0;
+	font-size: 0;
+}
+
+
+
+
+.info_list {
+	padding: 0.1rem 0.36rem 0.1rem 0.36rem;
+	color: #444444;
+	font-size: 0.38rem;
+}
+.info_list li {
+	padding: 0.4rem 0 0.36rem;
+}
+.info_list li + li {
+	border-top: 1px dashed #dddddd;
+}
+.info_list li h2 {
+	margin-bottom: 0.08rem;
+	color: #194d96;
+	font-size: 0.38rem;
+	font-weight: bold;
+}
+.info_list li h2 i {
+	display: inline-block;
+	margin-left: 0.2rem;
+	margin-right: 0.1rem;
+	color: #999999;
+	font-size: 0.32rem;
+}
+
+
+.info_case {
+	line-height: 0.68rem;
+	padding: 0 0.36rem;
+	color: #666666;
+    font-size: 0.37rem;
+	border: 1px solid #eeeeee;
+	border-radius: 0.24rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	overflow: hidden;
+}
+.info_case li {
+	padding: 0.4rem 0;
+}
+.info_case li + li + li {
+	border-top: 1px dashed #dddddd;
+}
+.info_case li.info_tit {
+	margin: auto -0.36rem;
+	padding: 0.32rem 0.4rem;
+	color: #ffffff;
+	font-size: 0.38rem;
+	background-color: #194d96;
+}
+.info_case li a {
+	display: block;
+	color: #194d96;
+	font-weight: bold;
+}
+.info_case li span {
+	color: #333333;
+}
+
+/*
+<div class="fw_rim">
+	<table class="fw_tab" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<div class="tab_tit word_no">
+					<p>证书/报告编号</p>
+					<span>(Certificate/Report No.)</span>
+				</div>
+			</td>
+*/
+
+
+body {
+    background-image: url('bg.png');
+    background-repeat: repeat;
+    background-size: auto;
+    opacity: 1;
+}
+
