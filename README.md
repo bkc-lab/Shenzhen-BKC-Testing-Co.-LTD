@@ -1,1 +1,0 @@
-# Shenzhen-BKC-Testing-Co.-LTD
